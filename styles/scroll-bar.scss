@@ -1,0 +1,91 @@
+@import url("styles/colors.scss");
+
+input[type="range"] {
+    height: 19px;
+    -webkit-appearance: none;
+    margin: 10px 0;
+    width: 100%;
+  }
+  input[type="range"]:focus {
+    outline: none;
+  }
+  input[type="range"]::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 4px;
+    cursor: pointer;
+    animate: 0.2s;
+    box-shadow: 0 0 0 #000000;
+    background: $white;
+    border-radius: 5px;
+    border: 0 solid #000000;
+  }
+  input[type="range"]::-webkit-slider-thumb {
+    box-shadow: 0 0 0 #000000;
+    border: 3px solid #a4d00a;
+    height: 10px;
+    width: 50px;
+    border-radius: 40px;
+    background: #a4d00a;
+    cursor: pointer;
+    -webkit-appearance: none;
+    margin-top: -4.5px;
+  }
+  input[type="range"]:focus::-webkit-slider-runnable-track {
+    background: #ededed;
+  }
+  input[type="range"]::-moz-range-track {
+    width: 100%;
+    height: 4px;
+    cursor: pointer;
+    animate: 0.2s;
+    box-shadow: 0 0 0 #000000;
+    background: #ededed;
+    border-radius: 5px;
+    border: 0 solid #000000;
+  }
+  input[type="range"]::-moz-range-thumb {
+    box-shadow: 0 0 0 #000000;
+    border: 3px solid #a4d00a;
+    height: 10px;
+    width: 50px;
+    border-radius: 40px;
+    background: #a4d00a;
+    cursor: pointer;
+  }
+  input[type="range"]::-ms-track {
+    width: 100%;
+    height: 4px;
+    cursor: pointer;
+    animate: 0.2s;
+    background: transparent;
+    border-color: transparent;
+    color: transparent;
+  }
+  input[type="range"]::-ms-fill-lower {
+    background: #ededed;
+    border: 0 solid #000000;
+    border-radius: 10px;
+    box-shadow: 0 0 0 #000000;
+  }
+  input[type="range"]::-ms-fill-upper {
+    background: #ededed;
+    border: 0 solid #000000;
+    border-radius: 10px;
+    box-shadow: 0 0 0 #000000;
+  }
+  input[type="range"]::-ms-thumb {
+    margin-top: 1px;
+    box-shadow: 0 0 0 #000000;
+    border: 3px solid #a4d00a;
+    height: 10px;
+    width: 50px;
+    border-radius: 40px;
+    background: #a4d00a;
+    cursor: pointer;
+  }
+  input[type="range"]:focus::-ms-fill-lower {
+    background: #ededed;
+  }
+  input[type="range"]:focus::-ms-fill-upper {
+    background: #ededed;
+  }

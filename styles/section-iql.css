@@ -1,0 +1,58 @@
+.section-iql {
+  height: 100%;
+  width: 100%;
+  max-width: 1920px;
+  background: url(../img/info-bg.png) no-repeat;
+  display: flex;
+  margin-bottom: 40px;
+}
+.section-iql .column-1 {
+  width: 540px;
+}
+.section-iql .column-1 .iql {
+  margin: 35px 0 10px 0;
+}
+.section-iql .column-1 .iql-title {
+  margin-bottom: 15px;
+}
+.section-iql .column-1 .iql-text {
+  margin-bottom: 25px;
+}
+.section-iql .column-1 .iql-list {
+  margin-left: 20px;
+}
+@media screen and (max-width: 1200px) {
+  .section-iql .column-1 {
+    width: 60%;
+    text-align: left;
+  }
+}
+.section-iql .column-2 {
+  margin-left: 170px;
+  text-align: center;
+}
+.section-iql .column-2 .store {
+  cursor: pointer;
+}
+.section-iql .column-2 .store .app-store {
+  margin-right: 15px;
+}
+.section-iql .column-2 .store .phones-img {
+  max-width: 100%;
+  padding-top: 20px;
+}
+@media screen and (max-width: 1800px) {
+  .section-iql .column-2 {
+    margin-left: 30px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .section-iql {
+    padding: 0;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+/*# sourceMappingURL=section-iql.css.map */

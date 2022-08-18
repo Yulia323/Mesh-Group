@@ -1,0 +1,36 @@
+@import url("styles/section-iql.css");
+@import url("styles/section-balance.css");
+@import url("styles/modal-windows.css");
+@import url("styles/scroll-bar.scss");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body, html {
+  overflow-x: hidden;
+  font-family: Roboto, sans-serif;
+}
+
+h1 {
+  font-family: Gotham Pro, sans-serif;
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1920px) {
+  .container {
+    box-sizing: border-box;
+    padding-left: 360px;
+    padding-right: 360px;
+  }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1600px) {
+  .container {
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+}
+
+
+
